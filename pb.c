@@ -12,7 +12,7 @@ int main(int argc, char** argv)
 {
 	int balls[6];
 	int count_balls = 0;
-	int favourite = 0; //this should be bool
+	int favorite = 0; //this should be bool
 	for (int i=1; i<argc; i++)
 	{
 		const char* arg = argv[i];
@@ -20,7 +20,7 @@ int main(int argc, char** argv)
 		{
 			if (0 == strcmp(arg, "-favorite"))
 			{
-				favourite = 1;
+				favorite = 1;
 			}
 			else
 			{
