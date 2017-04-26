@@ -13,7 +13,11 @@ int main(int argc, char** argv)
 	int balls[6];
 	int count_balls = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	int favourite = 0; //this should be bool
+=======
+	bool favourite = 0; //this should be bool
+>>>>>>> RamaAlumno2
 =======
 	bool favourite = 0; //this should be bool
 >>>>>>> RamaAlumno2
@@ -96,7 +100,10 @@ int calculate_result(int white_balls[5], int power_ball)
 	  return -1;
 	}
   }
+
   // lottery ball numbers are always shown sorted
-  qsort(white_balls, 5, sizeof(int), my_sort_func);
-  return 0;
+	qsort(white_balls, 5, sizeof(int), my_sort_func);
+	// Here should be typed a function to calculate the probability
+	return 0;
+  
 }
